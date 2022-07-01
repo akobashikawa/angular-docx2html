@@ -1,4 +1,4 @@
-# Docx2html
+# Docx2html en Angular
 
 docx2html es una biblioteca javascript que permite visualizar un documento doc.
 
