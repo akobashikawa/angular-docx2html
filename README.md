@@ -1,5 +1,13 @@
 # Docx2html
 
+docx2html es una biblioteca javascript que permite visualizar un documento doc.
+
+Pero cómo usarlo en Angular?
+
+Este proyecto muestra una manera.
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
 ## Development server
