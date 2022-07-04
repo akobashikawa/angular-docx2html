@@ -20,9 +20,9 @@ export class AppComponent implements OnInit {
     console.log('onFileSelected', event.target.files[0]);
     this.docx2html(event.target.files[0], { container: document.querySelector("#doc2html-container") })
       .then((html:any) => {
-        console.log(html.content);
+        console.log(html.content.querySelectorAll("i"));
         let ids = []
-        let everyChild = document.querySelectorAll("#doc2html-container i");
+        let everyChild = html.content.querySelectorAll("i");
         for (let i = 0; i < everyChild.length; i++) {
           console.log(everyChild[i].id);
           ids.push(everyChild[i].id);
