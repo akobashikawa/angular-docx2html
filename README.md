@@ -5,6 +5,8 @@ docx2html es una biblioteca javascript que permite visualizar un documento doc.
 Pero cómo usarlo en Angular?
 
 Este proyecto muestra una manera.
+
+[Demo](https://angular-docx2html.netlify.app/)
 ## Instalación y despliegue
 
 Este es un proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2, así que puede proceder como de costumbre.
