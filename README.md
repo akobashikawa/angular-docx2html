@@ -80,6 +80,7 @@ console.log('docx2html', require('docx2html'));
 
 ### Intento 2: OK
 - Deshago los cambios previos en `angular.json`
+
 `src\index.html`
 ```html
 <app-root></app-root>
